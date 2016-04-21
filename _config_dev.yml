@@ -1,0 +1,2 @@
+# Site settings
+url: "http://localhost:4000"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
