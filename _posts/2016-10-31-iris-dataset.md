@@ -28,6 +28,7 @@ type(iris)
 ```
 
 iris 데이터 보기
+
 ```python
 print(iris.data)
 
