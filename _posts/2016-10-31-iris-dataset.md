@@ -366,6 +366,7 @@ for i, score in enumerate(k_scores):
 ```
 
 정확도 시각화 하기
+
 ```python
 import matplotlib.pyplot as plt
 %matplotlib inline
