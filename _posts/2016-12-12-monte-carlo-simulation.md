@@ -62,7 +62,6 @@ import numpy as np
 
 def ms_pi(num_of_points, num_of_try):
     total_pi = 0
-    pis = [] 
 
     for i in range(num_of_try):
         inner_circle = 0;
@@ -104,7 +103,6 @@ def generate_randomarray(num_of_elements, start_num, end_num):
 
 def ms_pi2(num_of_points, num_of_try):
     total_pi = 0
-    pis = [] 
 
     for i in range(num_of_try):
         inner_circle = 0;
