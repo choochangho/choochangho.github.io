@@ -25,7 +25,6 @@ $$
 $$
 
 
-
 ### Accuracy(ACC), 정확도
 
 - the number of correct predictions / the total number of datasets
@@ -128,3 +127,4 @@ $$
 F_{2} = \frac{5 \times PREC \times REC}{4 \times PREC + REC}
 \end{align}
 $$
+
