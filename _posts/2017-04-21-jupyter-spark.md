@@ -60,7 +60,13 @@ hadoop-user$ pip3 install lxml
 
 ## jupyter notebook 실행
 
-spark 마스터 노드를 지정한다(master)
+Python3 를 spark 에서 사용하기 때문에 아래와 같이 지정하자.
+
+```bash
+hadoop-user$ export PYSPARK_PYTHON=python3
+```
+
+spark 마스터 노드(master)를 지정하여 jupyter notebook을 실행 시킨다.
 
 ```bash
 hadoop-user$ jupyter notebook --Spark.url="http://master:4040"
