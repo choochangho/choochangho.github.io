@@ -121,6 +121,26 @@ SES_KEY=<KEY ID>
 SES_SECRET=<SECRET KEY>
 ```
 
+aws-sdk-php 설치
+
+composer.json
+
+```json
+"require": {
+      ...
+      ...
+      "aws/aws-sdk-php": "~3.0",
+      ...
+  },
+```
+
+설치
+
+```bash
+$ composer update
+```
+
+
 테스트를 위한 컨트롤러를 작성하고 브라우저로 결과를 확인하자.
 
 ```php
